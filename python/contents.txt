@@ -32,6 +32,7 @@ graphs/dijkstra.py	Dijkstra's Algorithm
 graphs/mergefind_and_kruskal.py	Kruskal's Algorithm (including Merge-Find Set)
 graphs/bellman_ford.py	Bellman-Ford Algorithm
 graphs/floyd_warshall.py	Floyd-Warshall Algorithm
+graphs/maxflow.py	Max Flow (Ford-Fulkerson Algorithm)
 graphs/scc.py	Strongly Connected Components (Kosaraju)
 graphs/topological.py	Topological Sorting (Kahn's Algorithm)
 graphs/zero_one_bfs.py	0-1 BFS
@@ -46,6 +47,7 @@ graphs/two_sat.py	2-SAT
 [Mathematics]
 math/gauss_jordan.py	Gauss-Jordan Elimination (Matrix inversion and linear system solving)
 math/miller_rabin.py	Miller-Rabin Primality Test
+math/segment_tree.py	Segment Tree
 math/sieve.py	Prime Number Sieve (generator)
 math/gcd_totient.py	GCD and Euler's Totient Function
 math/extgcd.py	Extended Euclidean Algorithm
