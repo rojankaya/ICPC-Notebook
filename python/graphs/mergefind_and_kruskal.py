@@ -16,21 +16,21 @@ def union(vertice1, vertice2):
     if root1 != root2:
         if rank[root1] > rank[root2]:
             parent[root2] = root1
-	else:
-	    parent[root1] = root2
-	if rank[root1] == rank[root2]: rank[root2] += 1
+        else:
+            parent[root1] = root2
+        if rank[root1] == rank[root2]: rank[root2] += 1
 
 def kruskal(graph):
     for vertice in graph['vertices']:
-	make_set(vertice)
-	minimum_spanning_tree = set()
-	edges = list(graph['edges'])
-	edges.sort()
-	#print edges
+        make_set(vertice)
+    minimum_spanning_tree = set()
+    edges = list(graph['edges'])
+    edges.sort()
+    #print edges
     for edge in edges:
-	weight, vertice1, vertice2 = edge
-	if find(vertice1) != find(vertice2):
-	    union(vertice1, vertice2)
-	    minimum_spanning_tree.add(edge)
-	    
+        weight, vertice1, vertice2 = edge
+        if find(vertice1) != find(vertice2):
+            union(vertice1, vertice2)
+            minimum_spanning_tree.add(edge)
+            
     return sorted(minimum_spanning_tree)

@@ -6,6 +6,11 @@ utility/heap_queue.py	Heap Queue
 utility/btree.py	Binary Tree
 utility/bset.py	Binary Tree Set
 utility/trie.py	Trie
+utility/fenwick.py	Fenwick Tree
+utility/segment_tree.py	Iterative Segment Tree
+utility/sparse_table.py	Sparse Table / RMQ
+utility/compress.py	Coordinate Compression
+utility/monotonic.py	Monotonic Stack and Queue
 
 [Dynamic Programming]
 dp/kadane.py	Max Sum Subarray (Kadane's Algorithm)
@@ -15,31 +20,46 @@ dp/lis.py	Longest Increasing Subsequence
 
 [Geometry]
 geometry/convex_hull.py	Convex Hull
-geometry/cpp_geometry_misc.cc	Misc Geometry Functions (C++)
 
 [Graphs/Trees]
-graphs/graph_structure_bfs_dfs.py	Graph structure example for our DFS and BFS algorithms
+graphs/graph_structure_bfs_dfs.py	Graph structure example for DFS and BFS
 graphs/bfs.py	Breadth-First Search
 graphs/bfs_paths.py	Breadth-First Search Paths
 graphs/bfs_shortest_path.py	Breadth-First Search Shortest Path
 graphs/dfs.py	Depth-First Search
 graphs/dfs_paths.py	Depth-First Search Paths
 graphs/dijkstra.py	Dijkstra's Algorithm
-graphs/mergefind_and_kruskal.py	Kruskal's Algorithm (including Merge-Find set)
+graphs/mergefind_and_kruskal.py	Kruskal's Algorithm (including Merge-Find Set)
 graphs/bellman_ford.py	Bellman-Ford Algorithm
 graphs/floyd_warshall.py	Floyd-Warshall Algorithm
-graphs/maxflow.py	Max Flow (Ford-Fulkerson Algorithm)
+graphs/scc.py	Strongly Connected Components (Kosaraju)
+graphs/topological.py	Topological Sorting (Kahn's Algorithm)
+graphs/zero_one_bfs.py	0-1 BFS
+graphs/lca.py	Lowest Common Ancestor (Binary Lifting)
+graphs/bipartite.py	Bipartite Graph Checking
+graphs/bridges.py	Bridges and Articulation Points
+graphs/dinic.py	Dinic's Maximum Flow
+graphs/hopcroft_karp.py	Hopcroft-Karp Bipartite Matching
+graphs/min_cost_flow.py	Min-Cost Max-Flow
+graphs/two_sat.py	2-SAT
 
 [Mathematics]
 math/gauss_jordan.py	Gauss-Jordan Elimination (Matrix inversion and linear system solving)
 math/miller_rabin.py	Miller-Rabin Primality Test
-math/segment_tree.py	Segment Tree
 math/sieve.py	Prime Number Sieve (generator)
 math/gcd_totient.py	GCD and Euler's Totient Function
+math/extgcd.py	Extended Euclidean Algorithm
+math/mod_inverse.py	Modular Inverse
+math/crt.py	Chinese Remainder Theorem
+math/factorization.py	Prime Factorization
+math/binomial.py	Binomial Coefficients Modulo a Prime
 
 [Strings]
-strings/kmp.py	Knuth-Morris-Pratt Algorithm (fast pattern matching)
-strings/rabin_karp.py	Rabin-Karp Algorithm (multiple pattern matching)
+strings/kmp.py	Knuth-Morris-Pratt Algorithm (Fast Pattern Matching)
+strings/rabin_karp.py	Rabin-Karp Algorithm
+strings/z_algorithm.py	Z-Algorithm
+strings/manacher.py	Manacher's Algorithm
+strings/aho_corasick.py	Aho-Corasick Automaton
 
 [Techniques]
-../techniques.txt	Various algorithm techniques
+../techniques.txt	Various Algorithm Techniques

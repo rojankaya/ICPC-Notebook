@@ -5,6 +5,11 @@ V = 4
 # used for vertices not connected to each other
 INF  = 99999
  
+# Prints the distance matrix
+def printSolution(dist):
+    for row in dist:
+        print(" ".join("INF" if d == INF else str(d) for d in row))
+
 # Solves all pair shortest path via Floyd Warshall Algorithm
 def floydWarshall(graph):
  
@@ -14,7 +19,7 @@ def floydWarshall(graph):
     OR we can say that the initial values of shortest distances
     are based on shortest paths considerting no 
     intermedidate vertices """
-    dist = map(lambda i : map(lambda j : j , i) , graph)
+    dist = [list(row) for row in graph]
      
     """ Add all vertices one by one to the set of intermediate
      vertices.
@@ -42,7 +47,7 @@ def floydWarshall(graph):
                                 )
     printSolution(dist)
 
-"""
+r"""
             10
        (0)------->(3)
         |         /|\
